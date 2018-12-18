@@ -1,6 +1,7 @@
 function takeANumber(currentLine, personName){
+  let numOfPeople = 0;
   currentLine.push(personName);
-  return "Welcome, " + personName + ". You are number " + currentLine.length +  " in line." ;
+  return "Welcome. You are number " + currentLine.length +  " in line." ;
 }
   
 function nowServing(katzDeliLine){
